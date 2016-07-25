@@ -14,7 +14,7 @@ N = 2
         ansible.limit = "all"
         ansible.playbook = "site.yml"
        config.vm.provider "virtualbox" do |vb|
-         vb.customize ["modifyvm", :id, "--memory", "8192"]
+         vb.customize ["modifyvm", :id, "--memory", "2048"]
        end
       end
     end

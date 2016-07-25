@@ -1,0 +1,14 @@
+
+- connect to opscenter: ssh -fN -D 9999 vagrant@192.168.56.14
+-- set browser to use SOCKS proxy on 9999
+-- browse to localhost:8888
+
+cass nodes: 192.168.56.11/12/13
+opscenter node: 192.168.56.14
+
+ssh: vagrant/vagrant
+
+vagrant:
+  vagrant up
+  vagrant halt
+  vagrant destroy
